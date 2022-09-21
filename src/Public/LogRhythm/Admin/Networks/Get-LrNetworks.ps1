@@ -130,11 +130,11 @@ Function Get-LrNetworks {
 
 
         [Parameter(Mandatory = $false, ValueFromPipelineByPropertyName = $true, Position = 4)]
-        [string] $BIP,
+        [ipaddress] $BIP,
 
 
         [Parameter(Mandatory = $false, ValueFromPipelineByPropertyName = $true, Position = 5)]
-        [string] $EIP,
+        [ipaddress] $EIP,
 
 
         [Parameter(Mandatory = $false, ValueFromPipelineByPropertyName = $true, Position = 6)]
