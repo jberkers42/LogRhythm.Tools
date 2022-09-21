@@ -285,7 +285,7 @@ Function Get-LrNetworks {
             DO {
                 # Increment Page Count / Offset
                 #$PageCount = $PageCount + 1
-                $Offset = $Offset + 1
+                $Offset += $PageValuesCount
                 # Update Query Paramater
                 $QueryParams.offset = $Offset
                 # Apply to Query String
